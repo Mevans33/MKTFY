@@ -1,21 +1,26 @@
 import React from "react";
-import './loginportal.css';
+import "./login.css";
+import MKTFY from "../../assets/img/MKTFY.png";
 
+// import styles from "./login.module.css";
 
 const Login = () => {
   return (
-    <div className="text">
-      <h1>MKTFY</h1>
-      <h4>Buy and sell stuff!</h4>
-      <div>
-      <button>Login</button>
+    <div className="login-container">
+      <div className="logo-container">
+        <img src={MKTFY} alt="mktfy logo" />
       </div>
-      <div>
-      <button>Create Account</button>
+      <div className="btn-login-container">
+        <button className="btn-login">Login</button>
       </div>
-       <div>Find out more about! Visit our website</div>
+      <div className="btn-acc-container">
+        <button className="btn-cr-acc">Create Account</button>
+      </div>
+      <div className="web-link-container">
+        <p>Find out more about! Visit our website</p>
+      </div>
     </div>
   );
-}
+};
 
 export default Login;

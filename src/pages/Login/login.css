@@ -1,0 +1,97 @@
+
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-style: 'Open Sans';
+  /* Rectangle 2168 */
+  min-height: 100vh;
+  
+  background-image: url(../../assets/img/IMG\ Clouds.png);
+/* background: #6318AF; */
+
+}
+
+.login-container > div {
+  margin: 10px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 234.88px;
+  height: 88px;
+}
+
+.btn-login-container {
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.btn-acc-container {
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.web-link-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 40px;
+  
+  
+}
+
+
+.btn-login {
+/* Button */
+
+
+height: 64px;
+width: 345px;
+left: 788px;
+top: 622px;
+border-radius: 100px;
+background: #FFBA00;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+border-radius: 100px;
+
+
+/* Login */
+
+/* Titles and important things */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+
+/* Void white */
+color: #FFFFFF;
+
+
+
+}
+
+.btn-cr-acc {
+  
+  height: 64px;
+  width: 345px;
+  left: 788px;
+  top: 622px;
+  border-radius: 100px;
+  background: #6318AF;
+  color: #FFF;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
