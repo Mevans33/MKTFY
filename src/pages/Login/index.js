@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "../../components/Button/Button.jsx";
+import SignupModal from "../../components/Modals/SignupModal";
+import LoginModal from "../../components/Modals/LoginModal.js";
 import "./login.css";
 import MKTFY from "../../assets/img/MKTFY.png";
 
@@ -13,28 +14,10 @@ const Login = () => {
           <img src={MKTFY} alt="mktfy logo" />
         </div>
         <div className="btn-login-container">
-          <Button
-            onClick={() => {
-              console.log("Clicked on");
-            }}
-            type="button"
-            buttonStyle="btn--secondary--solid"
-            buttonSize="btn--large"
-          >
-            Login
-          </Button>
+          <LoginModal />
         </div>
         <div className="btn-acc-container">
-          <Button
-            onClick={() => {
-              console.log("Clicked on");
-            }}
-            type="button"
-            buttonStyle="btn--primary--solid"
-            buttonSize="btn--large"
-          >
-            Create Account
-          </Button>
+          <SignupModal />
         </div>
       </div>
       <div className="web-link-container">
